@@ -844,23 +844,30 @@ a {
 	}
 	.mobile-active {
 		display: block;
-		position: absolute;
+		position: fixed;
 		left: 0;
 		right: 0;
 		z-index: 101;
 		width: 100vw;
-		height: 100vh;
+		height: 100%;
 		background-color: var(--dark-color);
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		padding-top: 0px;
+		margin-top: -60px;
 	}
-	.mobile-active ::after {
+	#cross-btn {
+		position: absolute;
+		top: 55px;
+		right: 25px;
+	}
+	/* .mobile-active::after {
 		content: url(/img/menu-cross.svg);
 		position: absolute;
 		top: 60px;
 		right: 32px;
-	}
+	} */
 	.menu-mobile ul li {
 		display: flex;
 		align-items: center;
