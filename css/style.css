@@ -129,6 +129,7 @@ a {
 	font-weight: 900;
 	font-size: 40px;
 	color: var(--light-color);
+	cursor: pointer;
 }
 .nav-desktop .menu-desktop ul {
 	list-style: none;
@@ -358,6 +359,7 @@ a {
 	height: 418px;
 	background: var(--light-color);
 	position: relative;
+	cursor: pointer;
 }
 .course-cards .left-card img,
 .course-cards .right-card img {
@@ -449,6 +451,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	gap: 15px;
+	cursor: pointer;
 }
 
 .app-buttons .btn-square img {
@@ -491,6 +494,7 @@ a {
 	font-weight: 400;
 	font-size: 16px;
 	color: var(--light-color);
+	cursor: pointer;
 }
 .footer-section .wrapper .links .footer-col P {
 	color: var(--light-color);
@@ -502,6 +506,9 @@ a {
 	display: flex;
 	gap: 28px;
 	padding-left: 23px;
+}
+.footer-section .wrapper .links .footer-col .social-buttons img {
+	cursor: pointer;
 }
 .footer-section .wrapper .links .footer-col form {
 	position: relative;
@@ -537,6 +544,7 @@ a {
 	position: absolute;
 	right: 5px;
 	top: 4px;
+	cursor: pointer;
 }
 .footer-section p.copyright {
 	font-family: var(--font-family);
@@ -544,6 +552,10 @@ a {
 	font-size: 16px;
 	color: var(--light-color);
 	margin-top: 32px;
+}
+.footer-section .wrapper .copyright a {
+	color: var(--orange-color);
+	cursor: pointer;
 }
 .menu-mobile {
 	display: none;
@@ -837,6 +849,7 @@ a {
 		font-weight: 900;
 		font-size: 36px;
 		color: var(--light-color);
+		cursor: pointer;
 	}
 
 	.menu-m {
@@ -857,10 +870,14 @@ a {
 		padding-top: 0px;
 		margin-top: -60px;
 	}
+	.hamburger-icon {
+		cursor: pointer;
+	}
 	#cross-btn {
 		position: absolute;
 		top: 55px;
-		right: 25px;
+		right: 35px;
+		cursor: pointer;
 	}
 	/* .mobile-active::after {
 		content: url(/img/menu-cross.svg);
@@ -879,6 +896,7 @@ a {
 		font-weight: 400;
 		font-size: 24px;
 		color: var(--light-color);
+		cursor: pointer;
 	}
 
 	/* header */
